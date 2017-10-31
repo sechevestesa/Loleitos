@@ -1,0 +1,102 @@
+/*BODY*/
+body{
+    background-color: black;
+    position:absolute;
+    top:0;
+    bottom:auto;
+    right:0;
+    left:0;
+}
+/*END OF THE BODY*/
+
+/*Container style*/
+#container{
+    background-size: 100% 100%;
+    background-image: url(../image/water.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: auto;
+    border: dotted white ;
+    border-radius: 5px 5px 5px;
+}
+/*End of the body style*/
+/*CENTER*/
+center{
+    
+}
+/*End of the center*/
+
+/*HEADER*/
+header{
+    background-size: 100% 150px;
+    background-image: url(../image/header.jpg);
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    border-radius: 10px 10px 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 150px;
+    margin-top: 10px;
+}
+/*End of the header*/
+
+/*LOGO*/
+#logo{
+
+    
+    
+}
+/*End of the LOGO*/
+
+/*WEBNAME*/
+#webname{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+/*End of the webname*/
+/*NAV*/
+nav{
+    
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px;
+    margin-top: 10px;
+
+}
+nav ul li{
+    list-style: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline-block;
+}
+nav ul{
+    margin-left: -40px;
+}
+/*End of the nav*/
+
+/*A:HOVER*/
+a:hover{
+    color: yellowgreen;
+}
+/*END OF THE A:HOVER*/
+
+/*ARTICLE*/
+article{
+    margin-top: 20px;
+    background-color: lightskyblue;
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px;
+    font-size: 20px;
+}
+/*End of the article*/
+/*FOOTER*/
+footer{
+    text-align: center;
+}
+/*END OF THE FOOTER*/
